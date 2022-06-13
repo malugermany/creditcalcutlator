@@ -1,0 +1,14 @@
+C:\ProjMalu\test\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+C:\ProjMalu\test\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+C:\ProjMalu\test\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+C:\ProjMalu\test\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+C:\ProjMalu\test\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\ProjMalu\test\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\ProjMalu\test\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.AssemblyReference.cache
+C:\ProjMalu\test\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjMalu\test\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\ProjMalu\test\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\ProjMalu\test\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\ProjMalu\test\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\ProjMalu\test\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\ProjMalu\test\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
