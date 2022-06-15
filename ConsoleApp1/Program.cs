@@ -8,7 +8,7 @@ namespace ConsoleApp1
 		static void Main(string[] args)
 		{
 			
-			
+			//Kommentar für Git Test
 			Console.WriteLine("Berechnung Kredikosten");
 
 			CreditCalculator calculator = new CreditCalculator();
