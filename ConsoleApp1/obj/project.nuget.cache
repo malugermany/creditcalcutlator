@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NzNwVSHja+b+oqANveOWTsNAl8sI9rOmKEUA+htB7QCdGl/Cx0ObgrWrdrvUaWvtWA/KiB1jPVknrqGxU3oMgg==",
+  "dgSpecHash": "wXjQ7JTyM04hCxIdi79o/X4rtvDeVDSnjJsZGMi+bHZF1Y9xxGUZBSptQ8HQUKfy340SfSjmUmWY78iSSqmS3w==",
   "success": true,
-  "projectFilePath": "C:\\ProjMalu\\test\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "C:\\ProjMalu\\Calculator\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

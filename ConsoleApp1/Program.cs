@@ -12,10 +12,10 @@ namespace ConsoleApp1
 			Console.WriteLine("Berechnung Kredikosten");
 
 			CreditCalculator calculator = new CreditCalculator();
-			calculator.Credit = 130687m;
+			calculator.Credit = 130678.74m;
 			calculator.Ratio = 850m;
 			calculator.InterestRate = 1.73m;
-			calculator.PayDayMonthly = 1; 
+			calculator.PayDayMonthly = 1;
 
 			List<string> calulated = calculator.Calculate();
 

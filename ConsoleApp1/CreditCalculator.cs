@@ -58,10 +58,11 @@ namespace ConsoleApp1
 		{
 			List<string> ret = new List<string>();
 
-			ret.Add(string.Format("{0,6}{1,15}{2,15}{3,15}{4,15}{5,15}\n", "Rate","Datum","Tage", "Kredit", "Zinsen","Tilgung"));
+			ret.Add(string.Format("{0,6}{1,15}{2,15}{3,15}{4,15}\n", "Rate","Datum", "Kredit", "Zinsen","Tilgung"));
 
 			ret.Add(string.Format("{0,6}{1,15}{2,15}{3,15:f}", 0, StartDate.ToShortDateString(),"", Credit)); 
-			//Kredithöhe an einem Zeitpunkt
+			
+			//Kredithöhe an einem Zeitpunkt vor der Berechnung 
 			decimal creditstage = Credit;
 
 			int i = 0;
@@ -76,10 +77,14 @@ namespace ConsoleApp1
 					toDate = toDate.AddMonths(1);
 				}
 
-				//Zinsen die fällig werden
-				decimal tax = creditstage * (InterestRate / 100m) * GetMontlyFactor(fromDate, toDate);
+				//Laut Telefongespräch mit Petra Lubowitzki werden die monatlichen Zinsen immer mit 
+				//1/12 berechnet, die Berechnung GetMontlyFactor enfällt also und kann durch 1/12 ersetzt werden. 
 
-				int days = toDate.DayNumber - fromDate.DayNumber;
+				//Zinsen die fällig werden
+				//decimal tax = creditstage * (InterestRate / 100m) * GetMontlyFactor(fromDate, toDate);
+				decimal tax = creditstage * (InterestRate / 100m) / 12; 
+
+				//int days = toDate.DayNumber - fromDate.DayNumber;
 
 				TaxSum = TaxSum + tax; 
 
@@ -93,7 +98,7 @@ namespace ConsoleApp1
 				//ret.Add($"Rate: {string.Format("{0,5}", i)} "
 				ret.Add($"{string.Format("{0,6}", i)}"
 					+ $"{string.Format("{0,15}", toDate.ToShortDateString())}"
-					+ $"{string.Format("{0,15}", days)}"
+					//+ $"{string.Format("{0,15}", days)}"
 					+ $"{string.Format("{0,15:f}",creditstage)}"
 					+ $"{string.Format("{0,15:f}", tax)}"
 					+ $"{string.Format("{0,15:f}", repayment)}"
