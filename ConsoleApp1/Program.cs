@@ -9,7 +9,7 @@ namespace ConsoleApp1
 		{
 			
 			//Kommentar für Git Test
-			Console.WriteLine("Berechnung Kredikosten");
+			Console.WriteLine("Berechnung Kreditkosten");
 
 			CreditCalculator calculator = new CreditCalculator();
 			calculator.Credit = 130678.74m;
@@ -28,7 +28,5 @@ namespace ConsoleApp1
 
 			Console.ReadLine(); 
 		}
-
-
 	}
 }
