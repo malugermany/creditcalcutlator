@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "ConsoleApp1/1.0.0": {
+      "CreditCalculator/1.0.0": {
         "runtime": {
-          "ConsoleApp1.dll": {}
+          "CreditCalculator.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "ConsoleApp1/1.0.0": {
+    "CreditCalculator/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

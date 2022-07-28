@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "CalculatorLibraryTests/1.0.0": {
         "dependencies": {
-          "ConsoleApp1": "1.0.0",
+          "CreditCalculator": "1.0.0",
           "xunit": "2.4.1",
           "xunit.core": "2.4.1",
           "xunit.runner.console": "2.4.1",
@@ -743,9 +743,9 @@
       },
       "xunit.runner.console/2.4.1": {},
       "xunit.runner.visualstudio/2.4.5": {},
-      "ConsoleApp1/1.0.0": {
+      "CreditCalculator/1.0.0": {
         "runtime": {
-          "ConsoleApp1.dll": {}
+          "CreditCalculator.dll": {}
         }
       }
     }
@@ -1330,7 +1330,7 @@
       "path": "xunit.runner.visualstudio/2.4.5",
       "hashPath": "xunit.runner.visualstudio.2.4.5.nupkg.sha512"
     },
-    "ConsoleApp1/1.0.0": {
+    "CreditCalculator/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,4 +1,4 @@
-﻿using ConsoleApp1;
+﻿using CreditCalculator;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,7 +26,7 @@ namespace CalculatorLibraryTests
 			, DateOnly pExpectedResult)
 		{
 			//Arage
-			CreditCalculator creditCalculator = new CreditCalculator();
+			Calculator creditCalculator = new Calculator();
 
 			//Act 
 			DateOnly result = creditCalculator.CalculateFirstPayDay(pStartDate, pPayDayMonthly);

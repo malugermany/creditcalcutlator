@@ -1281,19 +1281,6 @@
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "ConsoleApp1/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "CreditCalculator": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ConsoleApp1.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ConsoleApp1.dll": {}
-        }
-      },
       "CreditCalculator/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -4792,20 +4779,15 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "ConsoleApp1/1.0.0": {
-      "type": "project",
-      "path": "../ConsoleApp1/ConsoleApp1.csproj",
-      "msbuildProject": "../ConsoleApp1/ConsoleApp1.csproj"
-    },
     "CreditCalculator/1.0.0": {
       "type": "project",
-      "path": "../CredCalculator/CreditCalculator.csproj",
-      "msbuildProject": "../CredCalculator/CreditCalculator.csproj"
+      "path": "../CreditCalculator/CreditCalculator.csproj",
+      "msbuildProject": "../CreditCalculator/CreditCalculator.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "ConsoleApp1 >= 1.0.0",
+      "CreditCalculator >= 1.0.0",
       "xunit >= 2.4.1",
       "xunit.core >= 2.4.1",
       "xunit.runner.console >= 2.4.1",
@@ -4847,8 +4829,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\ProjMalu\\Calculator\\ConsoleApp1\\ConsoleApp1.csproj": {
-              "projectPath": "C:\\ProjMalu\\Calculator\\ConsoleApp1\\ConsoleApp1.csproj"
+            "C:\\ProjMalu\\Calculator\\CreditCalculator\\CreditCalculator.csproj": {
+              "projectPath": "C:\\ProjMalu\\Calculator\\CreditCalculator\\CreditCalculator.csproj"
             }
           }
         }
