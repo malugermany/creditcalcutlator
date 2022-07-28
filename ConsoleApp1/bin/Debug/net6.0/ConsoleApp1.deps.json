@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "CreditCalculator": "1.0.0"
+        },
         "runtime": {
           "ConsoleApp1.dll": {}
+        }
+      },
+      "CreditCalculator/1.0.0": {
+        "runtime": {
+          "CreditCalculator.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CreditCalculator/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

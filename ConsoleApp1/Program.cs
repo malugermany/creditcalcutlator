@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CreditCalculator;
+using System;
 using System.Collections.Generic;
 
 namespace ConsoleApp1
@@ -11,7 +12,7 @@ namespace ConsoleApp1
 			//Kommentar für Git Test
 			Console.WriteLine("Berechnung Kreditkosten");
 
-			CreditCalculator calculator = new CreditCalculator();
+			Calculator calculator = new Calculator();
 			calculator.Credit = 130678.74m;
 			calculator.Ratio = 850m;
 			calculator.InterestRate = 1.73m;

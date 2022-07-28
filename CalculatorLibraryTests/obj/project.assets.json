@@ -1284,11 +1284,24 @@
       "ConsoleApp1/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CreditCalculator": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ConsoleApp1.dll": {}
         },
         "runtime": {
           "bin/placeholder/ConsoleApp1.dll": {}
+        }
+      },
+      "CreditCalculator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CreditCalculator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CreditCalculator.dll": {}
         }
       }
     }
@@ -4783,6 +4796,11 @@
       "type": "project",
       "path": "../ConsoleApp1/ConsoleApp1.csproj",
       "msbuildProject": "../ConsoleApp1/ConsoleApp1.csproj"
+    },
+    "CreditCalculator/1.0.0": {
+      "type": "project",
+      "path": "../CredCalculator/CreditCalculator.csproj",
+      "msbuildProject": "../CredCalculator/CreditCalculator.csproj"
     }
   },
   "projectFileDependencyGroups": {
